@@ -13,6 +13,8 @@ import SchoolIcon from '@mui/icons-material/School';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import BusinessIcon from '@mui/icons-material/Business';
 import AssignmentIcon from '@mui/icons-material/Assignment';
+import About from './Pages/About';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
 
 const App = () => {
   return (
@@ -38,6 +40,11 @@ const App = () => {
             </Button>
             <Button color="inherit" component={Link} to="/four">
               <AssignmentIcon />
+              
+            </Button>
+            <Button color="inherit" label="About" component={Link} to="/four">
+              <ContactMailIcon />
+              
             </Button>
           </Toolbar>
         </AppBar>
@@ -49,6 +56,7 @@ const App = () => {
             <Route path="/two" element={<Two />} />
             <Route path="/three" element={<Three />} />
             <Route path="/four" element={<Four />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
       </div>
