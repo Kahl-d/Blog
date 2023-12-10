@@ -42,7 +42,7 @@ const App = () => {
               <AssignmentIcon />
               
             </Button>
-            <Button color="inherit" label="About" component={Link} to="/four">
+            <Button color="inherit" label="About" component={Link} to="/about">
               <ContactMailIcon />
               
             </Button>

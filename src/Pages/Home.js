@@ -149,7 +149,13 @@ const Home = () => {
 
         {/* Additional Content */}
         <div id="purposeProblemContainer" className="additionalContentContainer">
-          <h2>Purpose and Problem</h2>
+          <h2>Purpose</h2>
+          <p>
+          In educational challenges, action research offers educators a structured and reflective approach to address teaching methodology shortcomings. By emphasizing the importance of Universal Design for Learning (UDL) and Differentiated Instruction (DI), this method empowers educators to actively design strategies accommodating diverse learning needs. This inclusive approach encourages instructors to evaluate pedagogical efficacy, identify areas for improvement, and experiment with innovative methods, fostering inclusivity for all students. Through action research, teachers gather practical evidence on the impact of their instructional techniques, facilitating informed decisions and revisions. Integrating UDL and DI cultivates a more inclusive learning environment, promoting impartial academic opportunities and comprehensive scholar development.
+          </p>
+          <h2>
+            Problem Statement
+          </h2>
           <p>
           Modern education addresses diverse student needs, particularly in the practical application of Universal Design for Learning (UDL) and Differentiated Instruction (DI). The current educational framework falls short in accommodating varied learning styles, hindered by standardized curricula. This deficiency obstructs the creation of an inclusive learning environment, impeding academic progress for students with diverse backgrounds and abilities. Simultaneously, a persistent educational outcome gap between special and general education students necessitates tailored support. To overcome these barriers, emphasizing UDL and DI within the action research framework is crucial, as well as introducing evidence-based instructional strategies for an inclusive and supportive learning environment and ensuring equitable opportunities for all students.
           </p>

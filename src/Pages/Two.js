@@ -116,64 +116,10 @@ const Two = () => {
             </ListItem>
           </List>
 
-          {/* Recommendation Alignment */}
-          <Typography variant="h6" sx={{ mt: 2 }}>
-            Recommendation Alignment
-          </Typography>
-          <List>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Interview Findings: The interview highlights the importance of fostering a classroom environment that promotes continual learning and adaptation. The teacher emphasizes being a constant learner, modeling openness to understanding and learning from diverse perspectives." />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Recommendation Alignment: The emphasis on lifelong learning in the interview aligns with the report's recommendation of promoting a lifelong learning culture for students and educators. Lifelong learning is portrayed as a critical element in adapting to the evolving educational landscape." />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Interview Findings: The interview addresses the need for inclusive curriculum design, culturally responsive teaching practices, and equitable classroom practices. The teacher actively engages in educational practices that challenge biases, promote diversity, and create an inclusive environment." />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Recommendation Alignment: These practices align with the report's emphasis on educational reform. The interview findings resonate with the call for transformative changes in educational systems to ensure inclusivity, responsiveness to cultural diversity, and fairness in teaching practices." />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Interview Findings: The teacher employs a multifaceted approach, incorporating various teaching strategies, collaborative learning, and technology to enhance cultural responsiveness. The interview underscores the importance of providing diverse learning experiences." />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Recommendation Alignment: This aligns with the recommendation to diversify study options. The interview findings suggest that diverse instructional methods, materials, and collaborative activities contribute to a more prosperous and inclusive educational experience." />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Interview Findings: The teacher positions themselves as a continual learner, actively listening to students and fostering a collaborative classroom culture. The teacher also acknowledges the role of public authorities in shaping educational practices." />
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemIcon>
-                <CheckIcon />
-              </ListItemIcon>
-              <ListItemText primary="Recommendation Alignment: The interview findings align with the report's recommendations regarding the role of teachers as lifelong learners and facilitators of inclusive environments. It also indirectly emphasizes the role of public authorities in supporting and shaping educational practices that embrace diversity and inclusion." />
-            </ListItem>
-          </List>
+         
         </CardContent>
       </Card>
 
-      {/* Container for Form Response Screenshots */}
       <Paper elevation={3} sx={{ p: 2, mb: 4 }}>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6} md={4}>
@@ -206,6 +152,120 @@ const Two = () => {
           <Grid item xs={12} sm={6} md={4}>
             <img src="/ten.png" alt="screenshot-1" style={{ width: '100%' }} />
           </Grid>
+        </Grid>
+      </Paper>
+
+      {/* New Section for Interview Findings and Recommendation Alignment */}
+      <Paper elevation={3} sx={{ p: 2, mb: 4 }}>
+        <Typography variant="h5" sx={{ mb: 2 }}>
+          Analysis of Interview Findings and Recommendation Alignment
+        </Typography>
+
+        {/* Lifelong Learning */}
+        <Typography variant="h6" sx={{ mt: 2 }}>
+          Lifelong Learning
+        </Typography>
+        <List>
+          {/* List Item Example */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Interview Findings: The interview highlights the importance of fostering a classroom environment that promotes continual learning and adaptation. The teacher emphasizes being a constant learner, modeling openness to understanding and learning from diverse perspectives." />
+          </ListItem>
+
+          {/* Recommendation Alignment */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Recommendation Alignment: The emphasis on lifelong learning in the interview aligns with the report's recommendation of promoting a lifelong learning culture for students and educators. Lifelong learning is portrayed as a critical element in adapting to the evolving educational landscape." />
+          </ListItem>
+        </List>
+
+        {/* Educational Reform */}
+        {/* ... (Repeat the pattern for other sections) ... */}
+
+        {/* Diversification of Study Options */}
+        <Typography variant="h6" sx={{ mt: 2 }}>
+        Educational Reform
+        </Typography>
+        <List>
+          {/* List Item Example */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Interview Findings: The interview addresses the need for inclusive curriculum design, culturally responsive teaching practices, and equitable classroom practices. The teacher actively engages in educational practices that challenge biases, promote diversity, and create an inclusive environment." />
+          </ListItem>
+
+          {/* Recommendation Alignment */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Recommendation Alignment: These practices align with the report's emphasis on educational reform. The interview findings resonate with the call for transformative changes in educational systems to ensure inclusivity, responsiveness to cultural diversity, and fairness in teaching practices." />
+          </ListItem>
+        </List>
+
+           {/* Diversification of Study Options */}
+           <Typography variant="h6" sx={{ mt: 2 }}>
+          Diversification of Study Options
+        </Typography>
+        <List>
+          {/* List Item Example */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Interview Findings: The teacher employs a multifaceted approach, incorporating various teaching strategies, collaborative learning, and technology to enhance cultural responsiveness. The interview underscores the importance of providing diverse learning experiences." />
+          </ListItem>
+
+          {/* Recommendation Alignment */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Recommendation Alignment: This aligns with the recommendation to diversify study options. The interview findings suggest that diverse instructional methods, materials, and collaborative activities contribute to a more prosperous and inclusive educational experience." />
+          </ListItem>
+        </List>
+
+        {/* Role of Teachers and Public Authorities */}
+        <Typography variant="h6" sx={{ mt: 2 }}>
+        Role of Teachers and Public Authorities
+        </Typography>
+        <List>
+          {/* List Item Example */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Interview Findings: The teacher positions themselves as a continual learner, actively listening to students and fostering a collaborative classroom culture. The teacher also acknowledges the role of public authorities in shaping educational practices." />
+          </ListItem>
+
+          {/* Recommendation Alignment */}
+          <ListItem disablePadding>
+            <ListItemIcon>
+              <CheckIcon />
+            </ListItemIcon>
+            <ListItemText primary="Recommendation Alignment: The interview findings align with the report's recommendations regarding the role of teachers as lifelong learners and facilitators of inclusive environments. It also indirectly emphasizes the role of public authorities in supporting and shaping educational practices that embrace diversity and inclusion." />
+          </ListItem>
+        </List>
+        {/* ... (Repeat the pattern for other sections) ... */}
+
+        {/* Summary */}
+        <Typography variant="h6" sx={{ mt: 2 }}>
+          Summary
+        </Typography>
+        <Typography variant="body1">
+          In summary, the qualitative results from the interview align with the key recommendations from "Education: The Necessary Utopia." The teacher's practices and perspectives resonate with the report's emphasis on lifelong learning, educational reform, diversification of study options, and the crucial roles of teachers and public authorities in fostering quality education. The interview provides a practical illustration of these principles within culturally responsive teaching.
+        </Typography>
+      </Paper>
+
+      {/* Container for Form Response Screenshots */}
+      <Paper elevation={3} sx={{ p: 2, mb: 4 }}>
+        <Grid container spacing={2}>
+          {/* ... (Previous content) ... */}
         </Grid>
       </Paper>
     </Container>
