@@ -22,7 +22,7 @@ const App = () => {
           <Toolbar>
             
             <Typography variant="h6" sx={{ flexGrow: 1 }}>
-              Blog Title
+              Curriculum and Instructional Design for Diversity
             </Typography>
             <Button color="inherit" component={Link} to="/">
               <PeopleAltIcon />

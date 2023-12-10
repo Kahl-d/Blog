@@ -90,11 +90,36 @@ const Two = () => {
           {/* You can add images here */}
           {/* Example: <img src="your-image-path.jpg" alt="screenshot-1" /> */}
           <Grid item xs={12} sm={6} md={4}>
-            <img src="screenshot-1.jpg" alt="screenshot-1" style={{ width: '100%' }} />
+            <img src="/one.png" alt="screenshot-1" style={{ width: '100%' }} />
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <img src="screenshot-2.jpg" alt="screenshot-2" style={{ width: '100%' }} />
+            <img src="/two.png" alt="screenshot-1" style={{ width: '100%' }} />
           </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/three.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/four.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/five.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/six.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/seven.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/eight.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/nine.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <img src="/ten.png" alt="screenshot-1" style={{ width: '100%' }} />
+          </Grid>
+
           {/* Add more Grid items for additional screenshots */}
         </Grid>
       </Paper>

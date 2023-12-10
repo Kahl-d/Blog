@@ -3,7 +3,6 @@ import React from 'react';
 import YouTube from 'react-youtube';
 import './banner.css';
 
-
 const Banner = () => {
   const videoId = 'dg58bgNU-1Y';
 
@@ -31,7 +30,7 @@ const Banner = () => {
   };
 
   return (
-    <div  style={{ position: 'relative', overflow: 'hidden', height: '400px' }}>
+    <div style={{ position: 'relative', overflow: 'hidden', height: '400px' }}>
       {/* Embed YouTube video */}
       <YouTube
         videoId={videoId}
@@ -46,6 +45,7 @@ const Banner = () => {
             enablejsapi: 0, // Disable JavaScript API to prevent user interaction
             disablekb: 1, // Disable keyboard controls
             playsinline: 1, // Play video inline (iOS)
+            showinfo: 0, // Hide video title
           },
         }}
         containerClassName="youtube-container" // Add a class for styling purposes
