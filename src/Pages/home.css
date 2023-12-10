@@ -1,0 +1,76 @@
+/* home.css */
+
+:root {
+    --color-one: #96bdc6;
+  }
+  
+  #banner {
+    width: 100%;
+    height: 300px;
+    /* Add background image styling */
+    /* You can use the 'backgroundImage' property for the desired image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #bannerContent {
+    text-align: center;
+  }
+  
+  #home {
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #intro {
+    width: 80%;
+    height: auto;
+    border: 2px solid white;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  #readMoreContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .readMore {
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+  }
+  
+  .readMore:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .additionalContentContainer {
+    width: 80%;
+    margin: 2rem 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .additionalContentContainer h2 {
+    color: #333;
+  }
+  
