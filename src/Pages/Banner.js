@@ -61,7 +61,7 @@ const Banner = () => {
       <div style={contentStyle}>
         <div id="banners">
           <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>CI6103</div>
-          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>Curriculum and Instruction Design for Diversity</div>
+          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>Curriculum and Instructional Design for Diversity</div>
           <div style={{ fontSize: '1.5rem' }}>Sharing Action Research Using Technology</div>
         </div>
       </div>
