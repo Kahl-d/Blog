@@ -13,6 +13,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import BusinessIcon from '@mui/icons-material/Business';
 import AssignmentIcon from '@mui/icons-material/Assignment';
+import HomePage from './Pages/HomePage';
 import About from './Pages/About';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 
@@ -26,7 +27,7 @@ const App = () => {
             <Typography variant="h6" sx={{ flexGrow: 1 }}>
               Curriculum and Instructional Design for Diversity
             </Typography>
-            <Button color="inherit" component={Link} to="/">
+            <Button color="inherit" component={Link} to="/home">
               <PeopleAltIcon />
             </Button>
             <Button color="inherit" component={Link} to="/one">
@@ -51,7 +52,9 @@ const App = () => {
 
         <div id="content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/home" element={<Home />} />
+
             <Route path="/one" element={<One />} />
             <Route path="/two" element={<Two />} />
             <Route path="/three" element={<Three />} />

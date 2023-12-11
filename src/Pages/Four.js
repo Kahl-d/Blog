@@ -13,7 +13,7 @@ const Four = () => {
       </Typography>
 
       <Typography>
-        Crafting impactful lessons involves the ability of educators to seamlessly integrate multiple subjects, fostering connections across diverse topics and enhancing engagement. Discover how educators can achieve this by incorporating writing across the curriculum by clicking "Read More" to explore effective classroom practices!
+        Crafting impactful lessons involves the ability of educators to seamlessly integrate multiple subjects, fostering connections across diverse topics and enhancing engagement.
       </Typography>
 
       
