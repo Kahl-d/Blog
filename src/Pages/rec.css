@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+#recommendationContainer{
+    width: 98%;
+}
+
 .rec{
     width: 100%;
 }
