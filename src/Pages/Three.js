@@ -13,7 +13,7 @@ const Three = () => {
       </Typography>
 
       <Typography>
-      Empowering diversity and enriching differentiated instruction necessitate educators to deploy effective classroom management strategies. Uncover the intricacies of these approaches in an insightful infographic by clicking on "Read More."
+      Empowering diversity and enriching differentiated instruction necessitate educators to deploy effective classroom management strategies.
       </Typography>
 
       
